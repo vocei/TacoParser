@@ -89,7 +89,7 @@ namespace LoggingKata
             }
           
             logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} are the furthest from eachother.");
-            // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
+            
         }
     }
 }
