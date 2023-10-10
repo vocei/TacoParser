@@ -2,6 +2,7 @@
 using System.Linq;
 using System.IO;
 using GeoCoordinatePortable;
+using System.Reflection.Emit;
 
 namespace LoggingKata
 {
@@ -81,6 +82,7 @@ namespace LoggingKata
                         distance = corA.GetDistanceTo(corB);
                         tacoBell1 = locA;
                         tacoBell2 = locB;
+<<<<<<< HEAD
 
                     }
                 }
@@ -89,6 +91,16 @@ namespace LoggingKata
 
             logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} are the furthest from eachother.");
 
+=======
+
+                    }
+                }
+
+            }
+          
+            logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} are the furthest from eachother.");
+            
+>>>>>>> inClass
         }
     }
 }
